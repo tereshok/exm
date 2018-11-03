@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+
+@font-face {
+	font-family: Aleo;
+	src: url(../font/aleo-regular-webfont.woff2);
+}
+
+
+body {
+	margin: 0 auto;
+	color: white;
+	border: 15px solid white;
+}
+
+/* Layout */
+.ba-container {
+	max-width: 1110px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+	display: inline-block;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	width: 650px;
+	height: 60px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {}
+
+textarea {}
+
+input::after {
+	content: 'search'url(../img/search.svg);
+	background-color: #5474FD;
+	position: relative;
+	top: 0;
+	right: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+ul, p {
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #CC9900;
+}
+
+.ba-bhromaon {
+	background: url(../img/Image1.jpeg) no-repeat;
+	background-size: cover;
+	height: 740px;
+	text-align: center;
+}
+
+.ba-bhromaon h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	padding: 225px 0 7px;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+}
+
+.ba-bhromaon ul {
+	font-size: 22px;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+padding-bottom: 50px;
+letter-spacing: 0.26em;
+}
+
+.ba-bhromaon li + li {
+	margin-left: 15px;
+}
+
+.ba-header {
+	background: #5474FD;
+	height: 100%;
+}
+
+.ba-header h4 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.09em;
+}
+
+.ba-flex {
+	display: flex;
+	padding: 25px 0 30px;
+}
+
+.ba-nav {
+	display: flex;
+	justify-content: flex-end;
+font-family: Aleo;
+font-size: 14px;
+text-transform: uppercase;
+padding-top: 3px;
+}
+
+.ba-nav li+li {
+	margin-left: 40px;
+}
+
+.ba-why {
+	background: url(../img/Rectangle.jpeg) no-repeat;
+	background-size: cover;
+	height: 680px;
+}
+
+.ba-why-end {
+	display: flex;
+	padding: 200px 0 130px;
+}
+
+.ba-why-end h2 {
+	font-family: Aleo;
+	font-size: 36px;
+	font-weight: 400;
+	padding-bottom: 60px;
+}
+
+.ba-why-end p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	padding-bottom: 35px;
+	letter-spacing: 0.064em;
+	line-height: 1.5;
+	max-width: 531px;
+}
+
+.ba-butt-a {
+	background: #5474FD;
+	height: 60px;
+	width: 225px;
+	border: none;
+text-transform: uppercase;
+}
+
+.ba-butt-a:hover {
+	background: rgba(0, 0, 0, 0.5);
+	color: #5474FD;
+}
+
+.ba-img1 {
+	content: url(../img/Ima2.jpeg);
+	transform: translate(80px, -77px);
+
+}
+
+.ba-img2 {
+	content: url(../img/Ima1.jpeg);
+	transform: translate(205px, -77px);
+}
+
+.ba-col {
+	width: 50%;
+
+}
+
+.ba-interactive {
+	background: #333333;
+	height: 336px;
+}
+
+.ba-int-img {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.ba-int-img svg+svg {
+	margin-left: 315px;
+}
+
+.ba-list {
+	display: flex;
+	justify-content: center;
+	font-family: Aleo;
+	font-size: 36px;
+	font-weight: 400;
+	padding-top: 15px;
+}
+
+.ba-list li+li {
+	margin-left: 170px;
+}
+
+.ba-spain-first {
+	background: url(../img/Rectang.jpeg) no-repeat;
+	background-size: cover;
+	height: 700px;
+	padding-top: 115px;
+}
+
+.ba-spain-cont {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 48px 25px;
+}
+
+.ba-spain-cont h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+font-weight: 300;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+
+}
+
+.ba-spain-cont h5::before {
+	content: 'Spain';
+	display: flex;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: none;
+	padding-bottom: 28px;
+}
+
+.ba-spain-cont p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+font-weight: 300;
+padding-bottom: 45px;
+line-height: 1.6;
+}
+
+.ba-spain-second {
+	background: url(../img/spain2.jpeg) no-repeat;
+	background-size: cover;
+	height: 700px;
+	padding-top: 230px;
+}
+
+.ba-man {
+	background: url(../img/men.jpeg) no-repeat;
+	background-size: cover;
+	height: 730px;
+}
+
+.ba-man h2 {
+font-family: Aleo;
+font-size: 36px;
+font-weight: 400;
+	text-align: center;
+	padding: 115px 0 100px;
+	letter-spacing: 0.02em;
+}
+
+.ba-man-cont{
+	background: #333333;
+	display: flex;
+}
+
+.ba-man-text {
+	padding: 50px;
+}
+
+.ba-man-text h5 {
+	font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+font-weight: 300;
+text-transform: uppercase;
+padding-bottom: 35px;
+}
+
+.ba-man-text p {
+	font-family: 'Josefin Sans', sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 1.6;
+}
+
+.ba-man-cont img {
+	display: block;
+}
+
+.ba-footer {
+	background: #232323;
+	height: 100%;
+	text-align: center;
+}
+
+.fa-linkedin-in {
+	color: #5474FD;
+}
+
+.ba-footer ul {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 25px;
+	font-family: 'Josefin Sans', sans-serif;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: 0.07em;
+}
+
+.ba-footer li + li {
+	margin-left: 5px;
+}
+
+.ba-social a {
+	color: white;
+	padding-bottom: 25px;
+}
+
+.ba-social a + a {
+	margin-left: 23px;
+}
+
+.ba-social a:hover,
+.fa-linkedin-in:hover {
+	color: #CC9900;
+}
+
+.ba-footer h5 {
+	font-family: 'Josefin Sans', sans-serif;
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+	padding: 115px 0 10px;
+	letter-spacing: 0.1em;
+}
